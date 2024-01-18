@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build and Push Docker Image
+    - name: Build and push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: rok2020/flask-calculator-ci-pipeline
